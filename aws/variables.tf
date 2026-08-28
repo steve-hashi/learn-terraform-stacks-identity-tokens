@@ -10,6 +10,7 @@ variable "aws_region" {
 variable "hcp_organization_name" {
   description = "Organization name for the trust relationship."
   type        = string
+  default = "sarah-test-org"
 }
 
 variable "hcp_project_name" {
