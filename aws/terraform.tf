@@ -9,10 +9,10 @@ terraform {
   }
 
   cloud {
-    organization = var.hcp_organization_name
+    organization = "sarah-test-org"
     workspaces {
       name    = "learn-terraform-stacks-identity-tokens"
-      project = var.hcp_project_name
+      project = "steve-learning"
     }
   }
 }
